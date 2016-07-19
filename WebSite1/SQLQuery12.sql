@@ -1,0 +1,2 @@
+﻿ALTER TABLE Menus
+ADD FOREIGN KEY (Restaurant_ID) REFERENCES RESTAURANT (Restaurant_ID);

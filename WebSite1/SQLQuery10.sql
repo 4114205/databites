@@ -1,0 +1,3 @@
+﻿
+ALTER TABLE Track
+ADD FOREIGN KEY (User_ID) REFERENCES UserInfo (User_ID);

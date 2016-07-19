@@ -1,0 +1,2 @@
+﻿ALTER TABLE Restaurant
+ADD FOREIGN KEY (Cuisine_ID) REFERENCES CUISINE (Cuisine_ID);
